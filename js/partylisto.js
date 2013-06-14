@@ -183,6 +183,7 @@ $('#btn-generate').click(function() {
     eventId = parseInt($('#event-id').val())
     attendees = { user: []}
     tracks = []
+    $("#tracks-table tbody").html("")
     setProgressMsg("Starting...")
     setProgress(0)
     $('#generation').slideToggle()
